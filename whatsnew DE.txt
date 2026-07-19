@@ -1,0 +1,18 @@
+v2.2.6 (Juli 2026)
+
+Diese Version bringt zahlreiche Verbesserungen und Erweiterungen für das Forumslader-Garmin-
+Datenfeld-Projekt, mit Fokus auf Nutzererfahrung, Funktionsumfang und Konfigurationsvielfalt.
+Wichtige Änderungen: erweiterte Anzeige-/Aufzeichnungsfeld-Optionen, verbesserte
+Standardeinstellungen, neue Funktionen wie der automatische Etappen-Reset.
+
+Funktions- und Einstellungsverbesserungen:
+
+- Neue auswählbare Anzeige-/Aufzeichnungsfelder hinzugefügt
+- Einstellung "Auto Trip Reset", mit der die App die Etappenzähler des Forumslader beim
+  Start einer neuen Aktivität automatisch zurücksetzt
+- Standard für "Scroll/Browse Fields" auf aktiviert geändert, sodass Nutzer standardmäßig
+  durch konfigurierte Felder wechseln können
+- Standardbelegung von Anzeige- und Aufzeichnungsfeldern aktualisiert, mit Priorität auf
+  Batteriekapazität, Dynamoleistung und Batteriestrom
+- Texte für Klarheit, Kürze und Konsistenz überarbeitet, einschließlich Feldnamen,
+  Menüstruktur und neuer Funktionen

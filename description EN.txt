@@ -1,0 +1,76 @@
+This IQ DATAFIELD connects a Forumslader to your Garmin bike computer.
+
+It connects to a Forumslader V5 or V6 (a generator-based battery/charge controller for
+e-bikes and dynamo-powered bikes) via Bluetooth Low Energy (BLE), and displays/records its
+live telemetry - battery status, charge/discharge current, dynamo output, speed, distance,
+and more - directly on your Garmin cycling computer. The data field connects automatically,
+keeps reconnecting in the background if the BLE link drops, and requires no companion phone
+app.
+
+FEATURES
+========
+
+Display Fields:
+The following Forumslader metrics can be assigned to any of the 4 display fields (see
+"Configure Display Fields" below):
+- Trip Energy (Wh), Temperature (deg C, if sensor installed), Dynamo Power (W),
+  Generator Gear, Distance/Odometer, Battery Current (A, signed), Electrical Load (W),
+  Speed, Battery Level (%), Day/Tour Distance (resettable), Consumed Energy (Wh, since
+  activity start), Estimated Range (projected, based on consumption/distance since
+  activity start), BLE Diagnostic Dashboard (see below)
+
+Depending on the "Scroll Fields" setting, either all 4 configured fields are shown
+concatenated on one line separated by a middle dot (·), or one field at a time, cycling on
+tap.
+
+Battery/charge indicator:
+A small battery icon (with a charging-bolt overlay while charging) is drawn in the corner
+of the data field once a Forumslader is connected, reflecting capacity and charging state.
+
+BLE Diagnostic Dashboard:
+Real-time BLE connection diagnostics, useful for troubleshooting an unstable connection:
+- D: Disconnect Count since the data field started
+- E: Checksum Errors (payload) since the data field started
+- B: BLE Throughput (bytes/s currently received)
+
+Battery Capacity Calculation:
+Computed either from coulomb counting (accumulated charge/discharge current, more accurate
+but requires an initial full-charge calibration) or from battery voltage (simpler, less
+precise) - selectable via the "Coulomb Count" setting.
+
+Alerts:
+When enabled, on-screen alerts are raised for: Battery Level Below 20%, Short Circuit,
+System Interrupt.
+
+Auto Trip Reset:
+When enabled, the Forumslader's trip counters are automatically reset once the connected
+activity's timer starts, so every activity starts with a clean trip energy baseline without
+a manual reset on the Forumslader itself.
+
+Lock to Device:
+When enabled, the app remembers and reconnects only to the specific Forumslader it last
+paired with, instead of the first matching device found - useful if several
+Forumslader-equipped bikes may be nearby.
+
+Recording (FIT):
+All display fields can additionally be recorded to your activity's FIT file via 4
+independently configurable Recording Fields, so you can review telemetry later in Garmin
+Connect or any FIT-compatible tool - even for metrics not shown on the data field itself.
+
+Configure Display and Recording Fields:
+1. Open the app settings menu (gear icon) on the Garmin, or use Garmin Connect Mobile App
+2. Select "Show Fields" or "Recording Fields"
+3. Choose any Forumslader metric for each field (or "Off" to leave it unused)
+
+Connectivity:
+The app scans for and connects automatically once the data field is active - no manual
+pairing needed. If the BLE connection drops after a device was connected, the app waits for
+automatic reconnection rather than rescanning immediately; otherwise it falls back to an
+active rescan with increasing backoff between attempts.
+
+Forumslader V5 & V6 are supported. Older versions are not compatible with Garmin devices.
+V6 devices older than 08/2023 need a firmware update, downloadable via the Forumslader App.
+Requires Forumslader App v2.05+: https://www.forumslader.de/forumslader-pro/technik/bluetooth-v6/
+
+IMPORTANT:
+Make sure the Forumslader is not concurrently connected to a smartphone with Forumslader App

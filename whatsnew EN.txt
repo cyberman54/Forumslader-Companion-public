@@ -1,0 +1,12 @@
+v2.2.6 (July 2026)
+
+This Version introduces several enhancements and refinements to the Forumslader Garmin data field project, focusing on user experience, feature set, and configuration flexibility. Key changes include expanded display/recording field options, improved settings defaults, new features like auto trip reset.
+
+Feature and Settings Enhancements:
+
+- Added new selectable display/recording fields
+- "Auto Trip Reset" setting, allowing the app to automatically reset Forumslader trip counters when a new activity starts 
+- Changed the default for "Scroll/Browse Fields" to enabled, so users can cycle through configured fields by default 
+- Updated default display and recording field assignments to prioritize battery capacity, dynamo power, and battery current
+- Overhauled strings for clarity, conciseness, and consistency, including field names, menu structure, and new Features
+
