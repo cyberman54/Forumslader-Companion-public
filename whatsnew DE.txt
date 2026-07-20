@@ -1,5 +1,7 @@
 v2.2.6 (Juli 2026)
 
+== Erstnutzende: Bitte Kompatibilität mit dem genutzten Forumslader direkt nach Download des Datenfelds prüfen. Bei Inkompatibilität bitte das von Garmin gewährte 48-Stunden-Zeitfenster zur Rückgabe nutzen. ==
+
 Diese Version bringt zahlreiche Verbesserungen und Erweiterungen für das Forumslader-Garmin-Datenfeld-Projekt, mit Fokus auf Nutzererfahrung, Funktionsumfang und Konfigurationsvielfalt. Wichtige Änderungen: erweiterte Anzeige-/Aufzeichnungsfeld-Optionen, verbesserte Standardeinstellungen, neue Funktionen wie der automatische Etappen-Reset.
 
 Funktions- und Einstellungsverbesserungen:

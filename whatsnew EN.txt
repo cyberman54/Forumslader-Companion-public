@@ -1,5 +1,7 @@
 v2.2.6 (July 2026)
 
+== First-time users: Please check compatibility with your forum loader immediately after downloading the data file. If there is an incompatibility, please use the 48-hour return window provided by Garmin. ==
+
 This version brings numerous improvements and enhancements to the Forumslader Garmin data field project, focusing on user experience, feature set, and configuration flexibility. Key changes include expanded display/recording field options, improved default settings, and new features such as automatic trip reset.
 
 Feature and Settings Enhancements:
