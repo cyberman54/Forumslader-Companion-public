@@ -92,3 +92,20 @@ You're welcome to raise issues and open pull requests to support development of 
 
 You can download the current release of this app from Garmin's IQ store:
 https://apps.garmin.com/en-EN/apps/7f8ae207-a5a3-4175-9b65-ea710256ba80
+
+BUILD VARIANTS (MONETIZATION)
+=============================
+
+This project now supports two app-store variants via separate manifest files:
+
+- Non-monetized app (default): manifest.xml
+  - IQ shop UUID: b1a69dcf-a4d5-4351-9b3e-7a73b1a9719e
+- Monetized app: manifest.monetized.xml
+  - IQ shop UUID: f37ce83f-ad98-4708-9741-fa4fa15c0d69
+
+Variant selection is controlled in monkey.jungle using the `project.manifest` line:
+
+1. Keep `project.manifest = manifest.xml` active to build the non-monetized app.
+2. Switch to `project.manifest = manifest.monetized.xml` to build the monetized app.
+
+Only one `project.manifest` line should be active at a time.
