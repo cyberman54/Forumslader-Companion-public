@@ -91,3 +91,12 @@ it falls back to an active rescan with increasing backoff between attempts.
 You're welcome to raise issues and open pull requests to support development of this app.
 
 You can download the current release of this app from Garmin's IQ store.
+
+BUILD
+=====
+
+This project now uses a single build target and always builds from manifest.xml.
+The app UUID used for releases is f37ce83f-ad98-4708-9741-fa4fa15c0d69.
+
+The file manifest.monetized.xml is kept in the repository as a legacy reference only
+and is not used by the active build configuration.
