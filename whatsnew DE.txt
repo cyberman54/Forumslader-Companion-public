@@ -1,3 +1,10 @@
+v2.2.9 (Juli 2026)
+
+Diese Version bringt zwei Verbesserungen: eine neue Funktion zur automatischen Reifenumfang-Kalibrierung sowie eine stabilere BLE-Verbindung.
+
+- Neu: Automatische Reifenumfang-Kalibrierung - einmalig "Kalibrieren" im Forumslader-Menü aktivieren und mind. 20 km am Stück fahren, der Forumslader erhält danach automatisch einen genaueren Reifenumfang
+- Verbesserte BLE-Verbindungsstabilität: robusteres automatisches Wiederverbinden nach Verbindungsabbrüchen
+
 v2.2.6 (Juli 2026)
 
 == Erstnutzende: Bitte Kompatibilität mit dem genutzten Forumslader direkt nach Download des Datenfelds prüfen. Bei Inkompatibilität bitte das von Garmin gewährte 48-Stunden-Zeitfenster zur Rückgabe nutzen. ==

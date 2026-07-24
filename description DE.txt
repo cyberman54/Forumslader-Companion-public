@@ -25,6 +25,9 @@ Echtzeit-Diagnose der BLE-Verbindung zur Fehlersuche bei instabiler Verbindung:
 Batteriekapazitätsberechnung:
 Die verbleibende Kapazität kann per Coulomb-Zählung (aufsummierter Lade-/Entladestrom, genauer, aber mit anfänglicher Vollladungs-Kalibrierung) oder anhand der Batteriespannung (einfacher, weniger genau) berechnet werden - auswahlbar über "Coulomb Count".
 
+Reifenumfang-Automatikkalibrierung:
+Aktiviere "Kalibrieren" im Forumslader-Hardwaremenü und fahre danach mindestens 20 km am Stück in einer Aktivität. Die App vergleicht die GPS-Distanz des Garmin mit der aus den Radumdrehungen des Forumslader berechneten Distanz und ermittelt so einen genaueren Reifenumfang, der automatisch an den Forumslader übertragen wird. Das Menü zeigt währenddessen die noch benötigte Fahrstrecke bzw. "Kalibrierung läuft…" und nach Abschluss den ermittelten Umfang (in mm) an. Wird die Aktivität vor Erreichen der Distanz beendet oder pausiert, bricht die Kalibrierung ab - einfach "Kalibrieren" erneut aktivieren und bei einer längeren, ununterbrochenen Fahrt erneut versuchen.
+
 Alarme:
 Wenn aktiviert, löst die App Alarme aus für: Batteriestand unter 20%, Kurzschluss, Systemunterbrechung.
 

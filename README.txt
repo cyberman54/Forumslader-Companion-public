@@ -54,6 +54,16 @@ Remaining battery capacity can be computed either from coulomb counting (accumul
 charge/discharge current, more accurate but requires an initial full-charge calibration)
 or from battery voltage (simpler, less precise) - selectable via the "Coulomb Count" setting.
 
+Wheel Circumference Auto-Calibration:
+Enable "Calibrate" in the Forumslader hardware configuration menu, then start an activity
+and ride at least 20 km (or the equivalent distance in miles) without stopping the activity.
+The app compares your Garmin's GPS distance to the Forumslader's wheel-rotation count and
+automatically computes and applies a more accurate wheel circumference to the Forumslader.
+The menu shows the remaining ride distance needed while waiting, "Calibration running..."
+once your activity has started, and the resulting circumference (in mm) once applied.
+Stopping or pausing the activity before the required distance is covered cancels the
+calibration; simply re-enable "Calibrate" and try again on an uninterrupted ride.
+
 Alerts:
 When enabled, the app raises on-screen alerts for:
 - Battery Level Below 20%

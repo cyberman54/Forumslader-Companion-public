@@ -1,3 +1,10 @@
+v2.2.9 (July 2026)
+
+This version brings two improvements: a new automatic wheel circumference calibration feature and more stable BLE connectivity.
+
+- New: Automatic wheel circumference calibration - enable "Calibrate" in the Forumslader menu once, then ride at least 20 km (~ 13 mi) without stopping; the Forumslader is automatically updated with a more accurate wheel circumference
+- Improved BLE connection stability: more robust automatic reconnection after connection drops
+
 v2.2.6 (July 2026)
 
 == First-time users: Please check compatibility with your forum loader immediately after downloading the data file. If there is an incompatibility, please use the 48-hour return window provided by Garmin. ==

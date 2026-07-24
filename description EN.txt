@@ -25,6 +25,9 @@ Real-time BLE connection diagnostics, useful for troubleshooting an unstable con
 Battery Capacity Calculation:
 Computed either from coulomb counting (accumulated charge/discharge current, more accurate but requires an initial full-charge calibration) or from battery voltage (simpler, less precise) - selectable via the "Coulomb Count" setting.
 
+Wheel Circumference Auto-Calibration:
+Enable "Calibrate" in the Forumslader hardware menu, then ride at least 20 km (~13 miles) without stopping during one activity. The app compares GPS distance from your Garmin to the wheel-rotation distance from the Forumslader and automatically computes and applies a more accurate wheel circumference. The menu shows the remaining distance needed, "Calibration running…" once started, and the resulting circumference (mm) once complete. Stopping/pausing before reaching the distance cancels the run - just re-enable and try again.
+
 Alerts:
 When enabled, on-screen alerts are raised for: Battery Level Below 20%, Short Circuit, System Interrupt.
 
