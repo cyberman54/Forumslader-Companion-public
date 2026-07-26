@@ -1,25 +1,19 @@
 v2.3.0 (July 2026)
-
 This version improves Lock to Device: if no Forumslader has been locked yet, the app automatically escalates to a short, more sensitive scan when needed, to find devices that are otherwise hard to detect.
 
 - New: Automatic escalation to a short, more sensitive scan when "Lock to Device" is on and no device has been locked yet
 - Tip: bring the Garmin very close to the Forumslader immediately after enabling "Lock to Device", until the connection is established
 
 v2.2.9 (July 2026)
-
 This version brings two improvements: a new automatic wheel circumference calibration feature and more stable BLE connectivity.
 
 - New: Automatic wheel circumference calibration - enable "Calibrate" in the Forumslader menu once, then ride at least 20 km (~ 13 mi) without stopping; the Forumslader is automatically updated with a more accurate wheel circumference
 - Improved BLE connection stability: more robust automatic reconnection after connection drops
 
 v2.2.6 (July 2026)
-
-== First-time users: Please check compatibility with your forum loader immediately after downloading the data file. If there is an incompatibility, please use the 48-hour return window provided by Garmin. ==
-
 This version brings numerous improvements and enhancements to the Forumslader Garmin data field project, focusing on user experience, feature set, and configuration flexibility. Key changes include expanded display/recording field options, improved default settings, and new features such as automatic trip reset.
 
 Feature and Settings Enhancements:
-
 - Additional display/recording fields: consumption, range, BLE diagnostics
 - New "Auto Trip Reset" option that automatically resets the Forumslader's daily trip counter (km) when an activity is started on the Garmin
 - Choice between a large single-field display, switchable by tapping, and a compact multi-field display

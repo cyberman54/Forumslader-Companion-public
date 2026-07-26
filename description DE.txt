@@ -1,54 +1,32 @@
-Dieses IQ-Datenfeld verbindet einen Forumslader mit deinem Garmin-Fahrradcomputer.
+Dieses IQ-Datenfeld verbindet deinen Garmin-Fahrradcomputer per BLE mit einem Forumslader V5 oder V6 und zeigt Live-Telemetrie direkt auf dem Gerät an.
 
-Kurzanleitung siehe hier: https://github.com/cyberman54/Forumslader-Companion-public/blob/main/Forumslader-Companion%20Kurzanleitung%20DE.pdf
-
-Es verbindet sich per Bluetooth Low Energy (BLE) mit einem Forumslader V5 oder V6 (USB-Laderegler für Nabendynamo-Fahrräder) und zeigt dessen Live-Telemetrie an bzw. zeichnet sie auf - Batteriestatus, Lade-/Entladestrom, Dynamoleistung, Geschwindigkeit, Distanz und mehr. Das Datenfeld verbindet sich automatisch, versucht bei Abbruch nahtlos neu zu verbinden und benötigt keine Begleit-App auf dem Smartphone.
+Kurzanleitung:
+https://github.com/cyberman54/Forumslader-Companion-public/blob/main/Forumslader-Companion%20Kurzanleitung%20DE.pdf
 
 FUNKTIONEN
 ==========
 
-Anzeigefelder:
-Folgende Forumslader-Messwerte können beliebigen der 4 Anzeigefelder zugewiesen werden (siehe "Anzeige- und Aufzeichnungsfelder konfigurieren" unten):
-- Etappenenergie (Wh), Temperatur (°C), Dynamoleistung (W), Generatorgang, Distanz/Kilometerzähler, Batteriestrom (A), Elektrische Last (W), Geschwindigkeit, Batteriestand (%), Tages-/Etappendistanz (rücksetzbar), Verbrauchte Energie (Wh, seit Aktivitätsstart), Geschätzte Reichweite (Prognose), BLE-Diagnose-Dashboard (siehe unten)
+- Bis zu 4 Anzeigefelder und 4 separate FIT-Aufzeichnungsfelder
+- Werte u.a.: Etappenenergie, Temperatur, Dynamoleistung, Generatorgang, Distanz, Batteriestrom, elektrische Last, Geschwindigkeit, Batteriestand, Tages-/Etappendistanz, Verbrauchte Energie, Reichweite, BLE-Diagnose
+- Scroll Fields: Einzelfeld mit Tipp-Wechsel oder kompakte Mehrfeldanzeige
+- Batterie-/Ladeanzeige als farbiges Symbol im Datenfeld
+- BLE-Diagnose: D (Disconnects), E (Pruefsummenfehler), B (Bytes/s)
+- Batteriestand wahlweise per Coulomb Count oder Spannungsmodell
+- Reifenumfang-Autokalibrierung nach mind. 20 km Aktivitaet
+- Alarme: niedriger Batteriestand, Kurzschluss, Systemunterbrechung
+- Optionaler Auto-Trip-Reset bei Start der Aktivitaet
 
-Je nach Einstellung "Scroll Fields" werden entweder alle 4 Felder in einer Zeile zusammengefasst, getrennt durch einen Mittelpunkt, oder nacheinander mit Tipp-Wechsel angezeigt.
+Geraetebindung (Lock to Device):
+Bei Aktivierung verbindet sich die App nur mit dem zuletzt gekoppelten Forumslader. Ist noch kein Geraet gebunden, startet sie zunaechst den normalen Suchlauf und eskaliert bei Bedarf automatisch zu einem kurzen, empfindlicheren Suchlauf.
+Wichtig: Direkt nach dem Aktivieren Garmin sehr nah an den Forumslader halten (wenige Zentimeter), bis die erste Verbindung steht.
 
-Batterie-/Ladeanzeige:
-Sobald ein Forumslader verbunden ist, zeigt ein kleines Batteriesymbol (mit Blitz-Overlay beim Laden) in der Ecke des Datenfelds Kapazität und Ladezustand an.
+Konnektivitaet:
+Die App verbindet sich automatisch. Nach Abbruch wird zunaechst Wiederverbinden versucht, danach aktiver Rescan mit Backoff.
 
-BLE-Diagnose-Dashboard:
-Echtzeit-Diagnose der BLE-Verbindung zur Fehlersuche bei instabiler Verbindung:
-- D: Anzahl Verbindungsabbrüche seit Start des Datenfelds
-- E: Prüfsummenfehler (Payload) seit Start des Datenfelds
-- B: BLE-Durchsatz (aktuell empfangene Bytes/s)
-
-Batteriekapazitätsberechnung:
-Die verbleibende Kapazität kann per Coulomb-Zählung (aufsummierter Lade-/Entladestrom, genauer, aber mit anfänglicher Vollladungs-Kalibrierung) oder anhand der Batteriespannung (einfacher, weniger genau) berechnet werden - auswahlbar über "Coulomb Count".
-
-Reifenumfang-Automatikkalibrierung:
-Aktiviere "Kalibrieren" im Forumslader-Hardwaremenü und fahre danach mindestens 20 km am Stück in einer Aktivität. Die App vergleicht die GPS-Distanz des Garmin mit der aus den Radumdrehungen des Forumslader berechneten Distanz und ermittelt so einen genaueren Reifenumfang, der automatisch an den Forumslader übertragen wird. Das Menü zeigt währenddessen die noch benötigte Fahrstrecke bzw. "Kalibrierung läuft…" und nach Abschluss den ermittelten Umfang (in mm) an. Wird die Aktivität vor Erreichen der Distanz beendet oder pausiert, bricht die Kalibrierung ab - einfach "Kalibrieren" erneut aktivieren und bei einer längeren, ununterbrochenen Fahrt erneut versuchen.
-
-Alarme:
-Wenn aktiviert, löst die App Alarme aus für: Batteriestand unter 20%, Kurzschluss, Systemunterbrechung.
-
-Automatischer Etappen-Reset:
-Wenn aktiviert, werden die Etappenzähler des Forumslader beim Start der Aktivität automatisch zurückgesetzt - jede Aktivität beginnt so mit sauberer Etappenenergie-Basis, ohne manuellen Reset am Forumslader.
-
-Gerätebindung (Lock to Device):
-Wenn aktiviert, verbindet sich die App nur mit dem zuletzt gekoppelten Forumslader statt mit dem ersten gefundenen Gerät - nützlich bei mehreren Forumslader-Fahrrädern in der Nähe. Ist noch kein Gerät gebunden, eskaliert die App bei Bedarf automatisch zu einem kurzen, empfindlicheren Suchlauf. Wichtig: Garmin direkt nach dem Aktivieren ganz nah an den Forumslader halten, bis die Verbindung steht.
-
-Aufzeichnung (FIT):
-Alle Anzeigefelder können zusätzlich über 4 unabhängig konfigurierbare Aufzeichnungsfelder in der FIT-Datei aufgezeichnet werden, sodass du Telemetrie später in Garmin Connect oder jedem FIT-kompatiblen Tool auswerten kannst - auch Messwerte, die nicht im Datenfeld angezeigt werden.
-
-Anzeige- und Aufzeichnungsfelder konfigurieren:
-1. Öffne das App-Einstellungsmenü (Zahnradsymbol) auf dem Garmin oder die Garmin Connect Mobile App
-2. Wähle "Show Fields" oder "Recording Fields"
-3. Wähle für jedes Feld einen Forumslader-Messwert (oder "Off" für ungenutzt)
-
-Konnektivität:
-Die App sucht und verbindet sich automatisch, sobald das Datenfeld aktiv ist - keine manuelle Kopplung nötig. Bricht die Verbindung nach erfolgreicher Kopplung ab, wartet die App auf automatisches Wiederverbinden statt sofort neu zu suchen; andernfalls sucht sie aktiv mit zunehmendem Abstand zwischen den Versuchen.
-
-Forumslader V5 & V6 werden unterstützt, ältere Versionen sind nicht kompatibel. V6 benötigt Firmware v2.05.2023 oder neuer: https://www.forumslader.de/forumslader-pro/technische-details-forumslader-pro/bluetooth-v6
+Kompatibilitaet:
+Forumslader V5 und V6 werden unterstuetzt.
+Fuer V6 wird Firmware v2.05.2023 oder neuer benoetigt:
+https://www.forumslader.de/forumslader-pro/technische-details-forumslader-pro/bluetooth-v6
 
 WICHTIG:
-Stelle sicher, dass der Forumslader nicht gleichzeitig mit der Forumslader App aus Smartphone verbunden ist
+Forumslader nicht parallel mit einer Smartphone-App verbinden.
