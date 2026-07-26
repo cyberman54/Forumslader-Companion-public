@@ -1,3 +1,10 @@
+v2.3.0 (July 2026)
+
+This version improves Lock to Device: if no Forumslader has been locked yet, the app automatically escalates to a short, more sensitive scan when needed, to find devices that are otherwise hard to detect.
+
+- New: Automatic escalation to a short, more sensitive scan when "Lock to Device" is on and no device has been locked yet
+- Tip: bring the Garmin very close to the Forumslader immediately after enabling "Lock to Device", until the connection is established
+
 v2.2.9 (July 2026)
 
 This version brings two improvements: a new automatic wheel circumference calibration feature and more stable BLE connectivity.

@@ -35,7 +35,7 @@ Auto Trip Reset:
 When enabled, the Forumslader's trip counters are automatically reset once the connected activity's timer starts, so every activity starts with a clean trip energy baseline without a manual reset on the Forumslader itself.
 
 Lock to Device:
-When enabled, the app remembers and reconnects only to the specific Forumslader it last paired with, instead of the first matching device found - useful if several Forumslader-equipped bikes may be nearby.
+When enabled, the app remembers and reconnects only to the specific Forumslader it last paired with, instead of the first matching device found - useful if several Forumslader-equipped bikes may be nearby. If no device is locked yet, the app automatically escalates to a short, more sensitive scan when needed. Important: bring the Garmin very close to the Forumslader immediately after enabling this, until the connection is established.
 
 Recording (FIT):
 All display fields can additionally be recorded to your activity's FIT file via 4 independently configurable Recording Fields, so you can review telemetry later in Garmin Connect or any FIT-compatible tool - even for metrics not shown on the data field itself.

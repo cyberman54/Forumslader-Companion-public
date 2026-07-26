@@ -1,3 +1,10 @@
+v2.3.0 (Juli 2026)
+
+Diese Version verbessert die Gerätebindung (Lock to Device): ist noch kein Forumslader gebunden, eskaliert die App bei Bedarf automatisch zu einem kurzen, empfindlicheren Suchlauf, um auch schwer erkennbare Geräte zu finden.
+
+- Neu: Automatische Eskalation auf einen kurzen, empfindlicheren Suchlauf, wenn "Lock to Device" aktiv ist und noch kein Gerät gebunden wurde
+- Hinweis: Garmin direkt nach dem Aktivieren von "Lock to Device" ganz nah an den Forumslader halten, bis die Verbindung steht
+
 v2.2.9 (Juli 2026)
 
 Diese Version bringt zwei Verbesserungen: eine neue Funktion zur automatischen Reifenumfang-Kalibrierung sowie eine stabilere BLE-Verbindung.

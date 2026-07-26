@@ -35,7 +35,7 @@ Automatischer Etappen-Reset:
 Wenn aktiviert, werden die Etappenzähler des Forumslader beim Start der Aktivität automatisch zurückgesetzt - jede Aktivität beginnt so mit sauberer Etappenenergie-Basis, ohne manuellen Reset am Forumslader.
 
 Gerätebindung (Lock to Device):
-Wenn aktiviert, verbindet sich die App nur mit dem zuletzt gekoppelten Forumslader statt mit dem ersten gefundenen Gerät - nützlich bei mehreren Forumslader-Fahrrädern in der Nähe.
+Wenn aktiviert, verbindet sich die App nur mit dem zuletzt gekoppelten Forumslader statt mit dem ersten gefundenen Gerät - nützlich bei mehreren Forumslader-Fahrrädern in der Nähe. Ist noch kein Gerät gebunden, eskaliert die App bei Bedarf automatisch zu einem kurzen, empfindlicheren Suchlauf. Wichtig: Garmin direkt nach dem Aktivieren ganz nah an den Forumslader halten, bis die Verbindung steht.
 
 Aufzeichnung (FIT):
 Alle Anzeigefelder können zusätzlich über 4 unabhängig konfigurierbare Aufzeichnungsfelder in der FIT-Datei aufgezeichnet werden, sodass du Telemetrie später in Garmin Connect oder jedem FIT-kompatiblen Tool auswerten kannst - auch Messwerte, die nicht im Datenfeld angezeigt werden.
