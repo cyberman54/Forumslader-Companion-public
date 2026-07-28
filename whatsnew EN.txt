@@ -19,5 +19,5 @@ Feature and Settings Enhancements:
 - Choice between a large single-field display, switchable by tapping, and a compact multi-field display
 - Colored live icon for battery capacity and charging state, always visible
 - Forumslader's daily and tour distance counters (km) can be reset via the Garmin IQ menu
-- Forumslader parameters wheel circumference, dynamo pole count, and auto-off delay are configurable
+- Forumslader parameters wheel circumference and dynamo pole count are configurable
 

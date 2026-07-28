@@ -3,8 +3,7 @@ This IQ data field connects your Garmin bike computer to a Forumslader V5/V6 via
 Quick Guide:
 https://github.com/cyberman54/Forumslader-Companion-public/blob/main/Forumslader-Companion%20Quick%20Guide%20EN.pdf
 
-FEATURES
-========
+Functions:
 
 - Up to 4 display fields plus 4 independent FIT recording fields
 - Available values include Trip Energy, Temperature, Dynamo Power, Generator Gear, Distance/Odometer, Battery Current, Electrical Load, Speed, Battery Level, Day/Tour Distance, Consumed Energy, Estimated Range, and BLE Diagnostics
@@ -24,7 +23,7 @@ Connectivity:
 Automatic scan/connect is built in. After disconnect, the app prefers reconnect first and then falls back to active rescan with backoff.
 
 Compatibility:
-Forumslader V5 and V6 are supported.
+Forumslader V5 (with BLE) and V6 are supported.
 V6 requires firmware v2.05.2023 or newer:
 https://www.forumslader.de/forumslader-pro/technische-details-forumslader-pro/bluetooth-v6
 

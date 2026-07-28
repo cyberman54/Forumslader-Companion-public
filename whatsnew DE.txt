@@ -19,4 +19,4 @@ Funktions- und Einstellungsverbesserungen:
 - Wahl zwischen per Tastentip weiterschaltbarer großer Einzelfeldanzeige und kleinerer Multifeldanzeige
 - Farbiges Live-Symbol für Akkukapazität und Ladezustand, das immer sichtbar bleibt
 - km-Tages- und Tourzähler des Forumsladers sind über Garmin IQ-Menü rücksetzbar
-- Forumslader-Parameter Reifenumfang, Dynamopolzahl und Auto-Aus-Verzögerung sind einstellbar
+- Forumslader-Parameter Reifenumfang und Dynamopolzahl sind einstellbar

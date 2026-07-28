@@ -3,9 +3,7 @@ Dieses IQ-Datenfeld verbindet deinen Garmin-Fahrradcomputer per BLE mit einem Fo
 Kurzanleitung:
 https://github.com/cyberman54/Forumslader-Companion-public/blob/main/Forumslader-Companion%20Kurzanleitung%20DE.pdf
 
-FUNKTIONEN
-==========
-
+Funktionen:
 - Bis zu 4 Anzeigefelder und 4 separate FIT-Aufzeichnungsfelder
 - Werte u.a.: Etappenenergie, Temperatur, Dynamoleistung, Generatorgang, Distanz, Batteriestrom, elektrische Last, Geschwindigkeit, Batteriestand, Tages-/Etappendistanz, Verbrauchte Energie, Reichweite, BLE-Diagnose
 - Scroll Fields: Einzelfeld mit Tipp-Wechsel oder kompakte Mehrfeldanzeige
@@ -24,7 +22,7 @@ Konnektivitaet:
 Die App verbindet sich automatisch. Nach Abbruch wird zunaechst Wiederverbinden versucht, danach aktiver Rescan mit Backoff.
 
 Kompatibilitaet:
-Forumslader V5 und V6 werden unterstuetzt.
+Forumslader V5 (mit BLE) und V6 werden unterstuetzt.
 Fuer V6 wird Firmware v2.05.2023 oder neuer benoetigt:
 https://www.forumslader.de/forumslader-pro/technische-details-forumslader-pro/bluetooth-v6
 
