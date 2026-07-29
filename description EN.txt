@@ -5,8 +5,9 @@ https://github.com/cyberman54/Forumslader-Companion-public/blob/main/Forumslader
 
 Functions:
 
-- Up to 4 display fields plus 4 independent FIT recording fields
-- Available values include Trip Energy, Temperature, Dynamo Power, Generator Gear, Distance/Odometer, Battery Current, Electrical Load, Speed, Battery Level, Day/Tour Distance, Consumed Energy, Estimated Range, and BLE Diagnostics
+- Up to 4 display fields, freely chosen from all available metrics
+- Available display values include Trip Energy, Temperature, Dynamo Power, Generator Gear, Distance/Odometer, Battery Current, Electrical Load, Speed, Battery Level, Day/Tour Distance, Consumed Energy, Estimated Range, and BLE Diagnostics
+- 4 fixed FIT recording fields, each individually switchable: Battery Level, Electrical Load, Dynamo Power, Temperature
 - Scroll Fields: single-field tap cycling or compact multi-field view
 - Battery/charge icon in the data field
 - BLE diagnostics: D (disconnects), E (checksum errors), B (bytes/s)

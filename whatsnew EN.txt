@@ -1,3 +1,13 @@
+Important: For ForumLader V6, please update the firmware to use the data field!
+https://www.forumslader.de/fw-lfv6-latest
+
+
+v2.4.0 (July 2026)
+This version simplifies FIT recording: instead of freely assigning any metric to 4 recording fields, FIT logging now covers a fixed set of 4 key metrics, each individually switchable on or off.
+
+- Changed: FIT recording fields are now fixed to Battery Level, Load, Dynamo Power, and Temperature - each can be switched on/off independently
+- Simplified: no more field selection lists for FIT recording, just simple on/off toggles
+
 v2.3.0 (July 2026)
 This version improves Lock to Device: if no Forumslader has been locked yet, the app automatically escalates to a short, more sensitive scan when needed, to find devices that are otherwise hard to detect.
 

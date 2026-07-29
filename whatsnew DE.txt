@@ -1,3 +1,12 @@
+Wichtig: Bei Forumslader V6 bitte Firmware updaten für Nutzung des Datenfelds!
+https://www.forumslader.de/fw-lfv6-latest
+
+v2.4.0 (Juli 2026)
+Diese Version vereinfacht die FIT-Aufzeichnung: statt beliebiger Zuordnung von Messwerten auf 4 Aufzeichnungsfelder umfasst das FIT-Logging jetzt eine feste Auswahl von 4 zentralen Messwerten, die jeweils einzeln ein- oder ausgeschaltet werden können.
+
+- Geändert: FIT-Aufzeichnungsfelder sind jetzt fest auf Akkufüllstand, Verbraucherlast, Dynamoleistung und Temperatur festgelegt - jedes einzeln ein-/ausschaltbar
+- Vereinfacht: keine Feldauswahllisten mehr für die FIT-Aufzeichnung, nur noch einfache Ein-/Aus-Schalter
+
 v2.3.0 (Juli 2026)
 Diese Version verbessert die Gerätebindung (Lock to Device): ist noch kein Forumslader gebunden, eskaliert die App bei Bedarf automatisch zu einem kurzen, empfindlicheren Suchlauf, um auch schwer erkennbare Geräte zu finden.
 

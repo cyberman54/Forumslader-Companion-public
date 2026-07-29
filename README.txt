@@ -81,15 +81,21 @@ paired with, instead of connecting to the first matching device found during a s
 useful if more than one Forumslader-equipped bike may be nearby.
 
 Recording (FIT):
-All display fields can additionally be recorded to your activity's FIT file via 4
-independently configurable Recording Fields (separate from the 4 display fields above),
-so you can review Forumslader telemetry later in Garmin Connect or any FIT-compatible
-analysis tool - even for metrics you don't keep visible on the data field itself.
+Four specific Forumslader metrics - Battery Level, Electrical Load, Dynamo Power, and
+Temperature - can each be individually recorded to your activity's FIT file, independently
+of what is shown on the display fields above, so you can review this telemetry later in
+Garmin Connect or any FIT-compatible analysis tool - even for metrics you don't keep
+visible on the data field itself.
 
-Configure Display and Recording Fields:
+Configure Display Fields:
 1. Open the app settings menu (gear icon) on the Garmin, or use Garmin Connect Mobile App
-2. Select "Show Fields" or "Recording Fields"
+2. Select "Show Fields"
 3. Choose any Forumslader metric for each field (or "Off" to leave it unused)
+
+Configure Recording Fields:
+1. Open the app settings menu (gear icon) on the Garmin, or use Garmin Connect Mobile App
+2. Select "Recording Fields"
+3. Switch each of the 4 fixed fields (Battery Level, Load, Dynamo Power, Temperature) on or off
 
 Connectivity:
 The app scans for and connects to a Forumslader automatically once the data field is active

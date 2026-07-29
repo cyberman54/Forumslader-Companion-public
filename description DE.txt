@@ -4,8 +4,9 @@ Kurzanleitung:
 https://github.com/cyberman54/Forumslader-Companion-public/blob/main/Forumslader-Companion%20Kurzanleitung%20DE.pdf
 
 Funktionen:
-- Bis zu 4 Anzeigefelder und 4 separate FIT-Aufzeichnungsfelder
-- Werte u.a.: Etappenenergie, Temperatur, Dynamoleistung, Generatorgang, Distanz, Batteriestrom, elektrische Last, Geschwindigkeit, Batteriestand, Tages-/Etappendistanz, Verbrauchte Energie, Reichweite, BLE-Diagnose
+- Bis zu 4 Anzeigefelder, frei wählbar aus allen verfügbaren Werten
+- Anzeigewerte u.a.: Etappenenergie, Temperatur, Dynamoleistung, Generatorgang, Distanz, Batteriestrom, elektrische Last, Geschwindigkeit, Batteriestand, Tages-/Etappendistanz, Verbrauchte Energie, Reichweite, BLE-Diagnose
+- 4 feste FIT-Aufzeichnungsfelder, jedes einzeln schaltbar: Akkufüllstand, elektrische Last, Dynamoleistung, Temperatur
 - Scroll Fields: Einzelfeld mit Tipp-Wechsel oder kompakte Mehrfeldanzeige
 - Batterie-/Ladeanzeige als farbiges Symbol im Datenfeld
 - BLE-Diagnose: D (Disconnects), E (Pruefsummenfehler), B (Bytes/s)
