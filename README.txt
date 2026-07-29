@@ -78,14 +78,7 @@ baseline without requiring a manual reset on the Forumslader itself.
 Lock to Device:
 When enabled, the app remembers and reconnects only to the specific Forumslader it last
 paired with, instead of connecting to the first matching device found during a scan -
-useful if more than one Forumslader-equipped bike may be nearby. If no device has been
-locked yet (e.g. right after turning this setting on), the app first tries the normal
-scan and, if that doesn't find a device within about 30 seconds, automatically starts a
-short, more sensitive burst scan to pick out the intended Forumslader.
-Important: right after enabling "Lock to Device", immediately bring your Garmin very
-close to the Forumslader (a few centimeters) and keep it there until the connection is
-established. This ensures the correct device is found and locked in, especially if other
-Forumslader units may be within range at the same time.
+useful if more than one Forumslader-equipped bike may be nearby.
 
 Recording (FIT):
 All display fields can additionally be recorded to your activity's FIT file via 4

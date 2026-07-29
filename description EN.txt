@@ -16,8 +16,7 @@ Functions:
 - Optional auto trip reset when activity recording starts
 
 Lock to Device:
-When enabled, the app reconnects only to the previously paired Forumslader. If no device is locked yet, it first runs normal scan and then automatically escalates to a short, more sensitive scan when needed.
-Important: immediately after enabling this option, hold the Garmin very close to the Forumslader (a few centimeters) until the first connection is established.
+When enabled, the app reconnects only to the previously paired Forumslader.
 
 Connectivity:
 Automatic scan/connect is built in. After disconnect, the app prefers reconnect first and then falls back to active rescan with backoff.

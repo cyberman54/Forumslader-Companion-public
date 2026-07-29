@@ -15,8 +15,7 @@ Funktionen:
 - Optionaler Auto-Trip-Reset bei Start der Aktivitaet
 
 Geraetebindung (Lock to Device):
-Bei Aktivierung verbindet sich die App nur mit dem zuletzt gekoppelten Forumslader. Ist noch kein Geraet gebunden, startet sie zunaechst den normalen Suchlauf und eskaliert bei Bedarf automatisch zu einem kurzen, empfindlicheren Suchlauf.
-Wichtig: Direkt nach dem Aktivieren Garmin sehr nah an den Forumslader halten (wenige Zentimeter), bis die erste Verbindung steht.
+Bei Aktivierung verbindet sich die App nur mit dem zuletzt gekoppelten Forumslader.
 
 Konnektivitaet:
 Die App verbindet sich automatisch. Nach Abbruch wird zunaechst Wiederverbinden versucht, danach aktiver Rescan mit Backoff.
