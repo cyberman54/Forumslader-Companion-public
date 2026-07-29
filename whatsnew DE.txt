@@ -1,5 +1,5 @@
 Wichtig: Bei Forumslader V6 bitte Firmware updaten für Nutzung des Datenfelds!
-https://www.forumslader.de/fw-lfv6-latest
+https://www.forumslader.de/fw-flv6-latest
 
 v2.4.0 (Juli 2026)
 Diese Version vereinfacht die FIT-Aufzeichnung: statt beliebiger Zuordnung von Messwerten auf 4 Aufzeichnungsfelder umfasst das FIT-Logging jetzt eine feste Auswahl von 4 zentralen Messwerten, die jeweils einzeln ein- oder ausgeschaltet werden können.

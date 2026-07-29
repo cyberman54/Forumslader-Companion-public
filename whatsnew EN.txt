@@ -1,5 +1,5 @@
 Important: For ForumLader V6, please update the firmware to use the data field!
-https://www.forumslader.de/fw-lfv6-latest
+https://www.forumslader.de/fw-flv6-latest
 
 
 v2.4.0 (July 2026)
