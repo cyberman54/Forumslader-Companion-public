@@ -28,8 +28,9 @@ The following Forumslader metrics can be assigned to any of the 4 display fields
   covered since the current activity started
 - BLE Diagnostic Dashboard - live BLE connection health (see below)
 
-Depending on the "Scroll Fields" setting, either all 4 configured fields are shown
-concatenated on one line, or one field at a time, cycling on tap (see "Field Rotation").
+Depending on the "Scroll Fields"/"Rotate Fields" settings, either all 4 configured fields
+are shown concatenated on one line, or one field at a time, switching automatically or by
+tap (see "Field Rotation").
 
 Battery/charge indicator:
 A small battery icon (with a charging-bolt overlay while actively charging) is drawn in the
@@ -44,10 +45,13 @@ troubleshooting an unstable connection:
 - B: BLE Throughput - bytes per second currently received
 
 Field Rotation:
-With "Scroll Fields" enabled (default), only one of the 4 configured fields is shown at a
-time; tap the data field to cycle to the next configured field. With "Scroll Fields"
-disabled, all 4 configured fields are shown concatenated on a single line, separated by
-a middle dot (·).
+On touchscreen devices, enabling "Scroll Fields" (default) shows only one of the 4
+configured fields at a time; tap the data field to cycle to the next configured field.
+"Rotate Fields" (default enabled) is available on all devices and automatically switches
+to the next configured field once per second - the only way to cycle fields on devices
+without a touchscreen, since these cannot receive taps, but it can also be enabled
+alongside "Scroll Fields" on touchscreen devices. With both settings disabled, all 4
+configured fields are shown concatenated on a single line, separated by a middle dot (·).
 
 Battery Capacity Calculation:
 Remaining battery capacity can be computed either from coulomb counting (accumulated
@@ -78,7 +82,9 @@ baseline without requiring a manual reset on the Forumslader itself.
 Lock to Device:
 When enabled, the app remembers and reconnects only to the specific Forumslader it last
 paired with, instead of connecting to the first matching device found during a scan -
-useful if more than one Forumslader-equipped bike may be nearby.
+useful if more than one Forumslader-equipped bike may be nearby. Enabled by default; on
+first use, since no device has been remembered yet, the app pairs with the first matching
+Forumslader found and then automatically locks onto that device for all future connections.
 
 Recording (FIT):
 Four specific Forumslader metrics - Battery Level, Electrical Load, Dynamo Power, and

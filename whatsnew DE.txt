@@ -1,17 +1,17 @@
 Wichtig: Bei Forumslader V6 bitte Firmware updaten für Nutzung des Datenfelds!
 https://www.forumslader.de/fw-flv6-latest
 
+v2.4.1 (Juli 2026)
+Diese Version verbessert das Feldwechseln auf Geräten ohne Touchscreen: bisher blieb dort die Einzelfeldanzeige auf einem Feld hängen, da per Tipp weiterschalten dort nicht möglich ist.
+
+- Neu: Einstellung "Felder rotieren" wechselt die Einzelfeldanzeige automatisch im Sekundentakt durch die ausgewählten Anzeigefelder - auf allen Geräten verfügbar, auch mit Touchscreen
+- Geändert: "Felder blättern" (manuelles Weiterschalten per Bildschirmtipp) wird nur noch auf Geräten mit Touchscreen angezeigt
+
 v2.4.0 (Juli 2026)
 Diese Version vereinfacht die FIT-Aufzeichnung: statt beliebiger Zuordnung von Messwerten auf 4 Aufzeichnungsfelder umfasst das FIT-Logging jetzt eine feste Auswahl von 4 zentralen Messwerten, die jeweils einzeln ein- oder ausgeschaltet werden können.
 
 - Geändert: FIT-Aufzeichnungsfelder sind jetzt fest auf Akkufüllstand, Verbraucherlast, Dynamoleistung und Temperatur festgelegt - jedes einzeln ein-/ausschaltbar
 - Vereinfacht: keine Feldauswahllisten mehr für die FIT-Aufzeichnung, nur noch einfache Ein-/Aus-Schalter
-
-v2.3.0 (Juli 2026)
-Diese Version verbessert die Gerätebindung (Lock to Device): ist noch kein Forumslader gebunden, eskaliert die App bei Bedarf automatisch zu einem kurzen, empfindlicheren Suchlauf, um auch schwer erkennbare Geräte zu finden.
-
-- Neu: Automatische Eskalation auf einen kurzen, empfindlicheren Suchlauf, wenn "Lock to Device" aktiv ist und noch kein Gerät gebunden wurde
-- Hinweis: Garmin direkt nach dem Aktivieren von "Lock to Device" ganz nah an den Forumslader halten, bis die Verbindung steht
 
 v2.2.9 (Juli 2026)
 Diese Version bringt zwei Verbesserungen: eine neue Funktion zur automatischen Reifenumfang-Kalibrierung sowie eine stabilere BLE-Verbindung.
@@ -25,7 +25,7 @@ Diese Version bringt zahlreiche Verbesserungen und Erweiterungen für das Forums
 Funktions- und Einstellungsverbesserungen:
 - Zusätzliche Anzeige-/Aufzeichnungsfelder: Verbrauch, Reichweite, BLE-Diagnose
 - Neue Option "Auto Trip Reset", die den km-Tageszähler des Forumslader bei Start einer Aktivität auf dem Garmin automatisch zurücksetzt
-- Wahl zwischen per Tastentip weiterschaltbarer großer Einzelfeldanzeige und kleinerer Multifeldanzeige
+- Wahl zwischen per Bildschirmtipp weiterschaltbarer großer Einzelfeldanzeige und kleinerer Multifeldanzeige
 - Farbiges Live-Symbol für Akkukapazität und Ladezustand, das immer sichtbar bleibt
 - km-Tages- und Tourzähler des Forumsladers sind über Garmin IQ-Menü rücksetzbar
 - Forumslader-Parameter Reifenumfang und Dynamopolzahl sind einstellbar
